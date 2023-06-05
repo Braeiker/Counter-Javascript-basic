@@ -1,0 +1,111 @@
+body {
+    text-align: center;
+    font-family: 'Geologica', sans-serif;
+    background-color: #F2E8CF;
+  }
+  
+  .title {
+    color: black;
+    font-family: 'Geologica', sans-serif;
+    font-size: 50px;
+  }
+  
+  #counter {
+    font-size: 180px;
+    color: white;
+    margin-bottom: 20px;
+    font-family: 'Geologica', sans-serif;
+}
+  
+  .buttonPlus {
+    padding: 12px 20px;
+    font-size: 30px;
+    background-color: #A7C957;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: -12%;
+    margin-left: 30%;
+  }
+  
+  .buttonPlus:hover {
+    background-color: #A7C957;
+  }
+  
+  .buttonPlus:active {
+    background-color: #657935;
+  }
+  
+  .buttonMinus {
+    padding: 12px 24px;
+    font-size: 30px;
+    background-color: #BC4749;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: -58px;
+    margin-left: 69%;
+  }
+  
+  .buttonMinus:hover {
+    background-color: #BC4749;
+  }
+  
+  .buttonMinus:active {
+    background-color: rgb(139, 2, 2);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .buttonPlus {
+      padding: 12px 20px;
+      font-size: 30px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      margin-right: 10px;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      margin-top: -26%;
+    margin-left: 17%;
+    }
+    
+    .buttonPlus:hover {
+      background-color: #45a049;
+    }
+    
+    .buttonPlus:active {
+      background-color: #2b642d;
+    }
+    
+    .buttonMinus {
+      padding: 12px 24px;
+      font-size: 30px;
+      background-color: red;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      margin-right: 10px;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      margin-top: -58px;
+      margin-left: 73%;
+    }
+    #counter {
+    font-size: 180px;
+    color: white;
+    margin-bottom: 112px;
+    font-family: 'Geologica', sans-serif;
+}
+  }
+  
